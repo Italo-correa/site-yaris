@@ -1,0 +1,127 @@
+/* Reset CSS */
+* {
+  margin: 20;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background{
+
+  background:#d5d5d5 ;
+}
+
+.banner{
+  width: 100%;
+  height: auto;
+
+}
+
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  
+}
+
+/* Header */
+header {
+  background: #9099a2;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+  background: #d5d5d5;
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* Features Section */
+#features {
+  padding: 80px 0;
+}
+
+.feature {
+  margin-bottom: 40px;
+}
+
+/* Pricing Section */
+#pricing {
+  background: #d5d5d5;
+  padding: 80px 0;
+}
+
+.plan {
+  background: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 80px 0;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+form textarea {
+  height: 150px;
+}
+
+.btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #555;
+}
+.whatsapp {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.botao {
+  display: inline-block;
+  background: #25D366; /* Cor do WhatsApp */
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
